@@ -6,7 +6,7 @@ from telegram import Update, ChatPermissions
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # === НАСТРОЙКИ ===
-TOKEN = 8853810921:AAEnf4XjVgZ62_HZQtg2RlpZ1t4sovnHVzc("TOKEN")
+TOKEN = os.getenv("TOKEN")
 OWNER_ID = 8382830959
 LOG_GROUP_ID = -1003975187107  # ВСТАВЬ ID группы
 
